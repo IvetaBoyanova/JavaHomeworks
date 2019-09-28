@@ -8,6 +8,7 @@ public class Task4_InchToCm {
         double result = 0;
 
         result = input * 2.54;
-        System.out.println((result));
+        result = (double)Math.round(result * 10000) / 10000;
+        System.out.println(result);
     }
 }
