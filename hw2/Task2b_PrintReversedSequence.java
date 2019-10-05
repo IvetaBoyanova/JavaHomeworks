@@ -5,10 +5,14 @@ public class Task2b_PrintReversedSequence {
         Scanner sc = new Scanner(System.in);
 
         int num = Integer.parseInt(sc.nextLine());
+        String rev = "";
 
-        for (int i = 1; i <= num; i++) {
-            int nums = sc.nextInt();
+        for (int i = 0; i < num; ++i) {
+            rev = sc.nextInt() + " " + rev;
         }
-
+        System.out.println(rev);
     }
 }
+
+
+

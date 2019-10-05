@@ -5,13 +5,20 @@ public class Task0e_ReadNNumbersOnNewLines {
         Scanner sc = new Scanner(System.in);
 
         int input = Integer.parseInt(sc.nextLine());
+        String s = "";
 
-        for (int i = 1; i <= input; i++) {
-            System.out.println(i);
+        for (int i = 0; i < input; i++) {
+            String output = sc.nextLine();
+            s += output + " ";
         }
-        for (int i = 1; i <= input; i++) {
-            System.out.print(i + " ");
-        }
+        System.out.print(s);
     }
 }
+
+
+
+
+
+
+
 
