@@ -1,6 +1,5 @@
 package Homeworks.hm4;
 
-//
 public class Person {
 
     private String name;
@@ -23,6 +22,7 @@ public class Person {
     }
 
     public String getName() {
+
         return name;
     }
 
@@ -34,6 +34,7 @@ public class Person {
     }
 
     public int getAge() {
+
         return age;
     }
 
